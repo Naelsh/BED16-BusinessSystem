@@ -1,1 +1,7 @@
 D:\GitProjekt\Skola\BED16-Projekt-Businessystem\BED16-BusinessSystem\BED16-BusinessSystem\bin\Debug\BED16-BusinessSystem.exe.config
+C:\Users\Turi\Documents\GitHub\BED16-BusinessSystem\BED16-BusinessSystem\bin\Debug\BED16-BusinessSystem.exe.config
+C:\Users\Turi\Documents\GitHub\BED16-BusinessSystem\BED16-BusinessSystem\bin\Debug\BED16-BusinessSystem.exe
+C:\Users\Turi\Documents\GitHub\BED16-BusinessSystem\BED16-BusinessSystem\bin\Debug\BED16-BusinessSystem.pdb
+C:\Users\Turi\Documents\GitHub\BED16-BusinessSystem\BED16-BusinessSystem\obj\Debug\BED16-BusinessSystem.csprojResolveAssemblyReference.cache
+C:\Users\Turi\Documents\GitHub\BED16-BusinessSystem\BED16-BusinessSystem\obj\Debug\BED16-BusinessSystem.exe
+C:\Users\Turi\Documents\GitHub\BED16-BusinessSystem\BED16-BusinessSystem\obj\Debug\BED16-BusinessSystem.pdb
