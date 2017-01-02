@@ -28,6 +28,7 @@ namespace BED16_BusinessSystem
 
         public static void ShowMainMenu()
         {
+            int productIDCount = 0;
             Console.Clear();
             Console.WriteLine("Welcome to order management of Group 4"
                                 + "\n1. to add a product to the store"
@@ -55,6 +56,7 @@ namespace BED16_BusinessSystem
             switch (itemSelection)
             {
                 case '1':
+                    ++productIDCount;
                     ShowAddProductToStoreMenu();
                     break;
                 case '2':
@@ -91,21 +93,28 @@ namespace BED16_BusinessSystem
         {
             Console.Clear();
             Console.WriteLine("You have selected option 1. to add a product to the store");
-            Console.ReadLine();
+            Product userProduct = new Product();
+            MyStore.AddProduct(userProduct.userInput(++productIDCount));
+            Console.WriteLine("Press any key to continue... ");
+            Console.ReadKey();
         }
 
         public static void ShowChangeProductPriceMenu()
         {
             Console.Clear();
             Console.WriteLine("You have selected option 2. to change the price of a product");
-            Console.ReadLine();
+            Console.WriteLine("Write the number of the product which price you want to change: ");
+            MyStore.ListProducts();
+            MyStore.editProduct(Int32.Parse(Console.ReadLine()), 1);
         }
 
         public static void ShowChangeAmountInInventoryMenu()
         {
             Console.Clear();
             Console.WriteLine("You have selected option 3. to change amount of a product in the inventory");
-            Console.ReadLine();
+            Console.WriteLine("Write the number of the product which quantity you want to change: ");
+            MyStore.ListProducts();
+            MyStore.editProduct(Int32.Parse(Console.ReadLine()), 2);
         }
 
         public static void ShowRegisterNewCustomerMenu()
