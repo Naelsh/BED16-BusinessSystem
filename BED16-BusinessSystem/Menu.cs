@@ -147,7 +147,6 @@ namespace BED16_BusinessSystem
         {
             Console.WriteLine("Thanks for the visit!");
             Console.ReadLine();
-
         }
     }
 }
